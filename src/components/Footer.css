@@ -1,5 +1,15 @@
 .footer {
     width: 100%;
-    height: 70px;
-    background-color: darkgoldenrod;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#git{
+    max-width: fit-content;
+}
+
+#linkedln{
+    max-width: fit-content;
 }

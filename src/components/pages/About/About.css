@@ -1,6 +1,5 @@
 .about{
-    background-color: red;
-    height: 600px;
+    background-color: transparent;
 }
 
 #coffee{
@@ -15,5 +14,15 @@ h1 {
 }
 
 h2 {
+    color: whitesmoke;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutText{
+    text-align: center;
     color: whitesmoke;
 }
