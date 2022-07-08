@@ -2,8 +2,9 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
+      <ul className="nav nav-tabs" id="list" style={{ display: "flex", justifyContent: "space-between"}}>
+        <li className="listName">
+        <button type="button" class="btn btn-outline-primary btn-lg">
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
@@ -13,8 +14,10 @@ function Navigation({ currentPage, handlePageChange }) {
           >
             About Me
           </a>
+        </button>
         </li>
-        <li className="nav-item">
+        <li className="listName">
+        <button type="button" class="btn btn-outline-primary btn-lg">
           <a
             href="#projects"
             onClick={() => handlePageChange('Projects')}
@@ -24,8 +27,10 @@ function Navigation({ currentPage, handlePageChange }) {
           >
             Projects
           </a>
+        </button>
         </li>
-        <li className="nav-item">
+        <li className="listName">
+        <button type="button" class="btn btn-outline-primary btn-lg">
           <a
             href="#contact"
             //  TODO: Add a comment explaining what this logic is doing
@@ -35,6 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
           >
             Contact Me
           </a>
+        </button>
         </li>
       </ul>
     );

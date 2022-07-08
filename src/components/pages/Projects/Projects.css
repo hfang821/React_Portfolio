@@ -1,0 +1,14 @@
+.projects{
+    background-color: white;
+    height: 700px;
+}
+
+#pitch-logo{
+    background-image: url(../../../../public/img/latest-pitch.png);
+    height: 300px;
+}
+
+#moat-logo {
+    background-image: url(../../../../public/img/logo-picture.png);
+    height: 300px;
+}

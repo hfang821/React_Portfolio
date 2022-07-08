@@ -1,0 +1,19 @@
+.about{
+    background-color: red;
+    height: 600px;
+}
+
+#coffee{
+    background-image: url(../../../../public/img/Coffee.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+}
