@@ -5,13 +5,18 @@ import Footer from './components/Footer';
 import About from './components/pages/About/About';
 import Projects from './components/pages/Projects/Projects';
 import Contact from './components/pages/Contact/Contact';
+import Resume from './components/pages/Resume/Resume';
 import "./App.css"
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
+  const [theme, setTheme] = useState(true);
 
   // conditionally render the pages to navigate to
   const renderPage = () => {
+    if (currentPage === 'Resume') {
+      return <Resume />
+    }
     if (currentPage === 'About') {
       return <About />;
     }
@@ -25,7 +30,6 @@ export default function PortfolioContainer() {
 
   return (
     <div className="portfolio">
-      {/* // TODO: Add a comment describing what we are passing as props */}
       <Header />
         <div className="sections">
           <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>

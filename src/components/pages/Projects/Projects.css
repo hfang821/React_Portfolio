@@ -1,6 +1,6 @@
 .projects{
     background-color: white;
-    height: 700px;
+    height: 70vh;
 }
 
 #pitch-logo{
@@ -10,5 +10,11 @@
 
 #moat-logo {
     background-image: url(../../../../public/img/logo-picture.png);
+    height: 300px;
+}
+
+
+#social-logo{
+    background-image: url(../../../../public/img/social.png);
     height: 300px;
 }
