@@ -1,12 +1,11 @@
 .portfolio{
-    height: 100vh;
+    height: fit-content;
 }
 
 .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: fit-content;
     position: relative;
-    top: 70px;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
 }

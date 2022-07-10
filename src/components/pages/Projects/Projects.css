@@ -18,3 +18,17 @@
     background-image: url(../../../../public/img/social.png);
     height: 300px;
 }
+
+/* ask Ta: how to add github & deployed link in the enlarged area. */
+
+#calculator:hover {
+    height: 400px;
+}
+
+#atm:hover {
+    height: 400px;
+}
+
+#social:hover {
+    height: 400px;
+}

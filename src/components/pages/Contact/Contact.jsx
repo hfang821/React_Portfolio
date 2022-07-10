@@ -34,9 +34,9 @@ export default function Contact() {
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
 
-    // If successful, we want to clear out the input after registration.
+
     setName('');
-    // TODO: Set the password back to an empty string after the user clicks submit
+
 
     setEmail('');
     alert(`Hello ${Name}`);

@@ -17,60 +17,68 @@ export default function About(currentPage, handlePageChange) {
       </div>
       <h1>Skills</h1>
 
-      <div class="row">
-      <div class="col-sm-3">
-        <div id="frontend" class="card">
-          <img src="./img/frontend.webp" class="card-img-top" alt="..." height="200" width="50" />
-          <div class="card-body">
-              <h5 class="card-title">Frontend Development Stack</h5>
+      <div className="row">
+      <div className="col-sm-3">
+        <div id="frontend" className="card">
+          <img src="./img/frontend.webp" className="card-img-top" alt="..." height="200" width="50" />
+          <div className="card-body">
+              <h5 className="card-title">Frontend Development Stack</h5>
           </div>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">CSS</li>
-              <li class="list-group-item">React</li>
-          </ul>    
+          <div>
+          <ul className="list-group list-group-flush">
+              <li className="list-group-item">HTML</li>
+              <li className="list-group-item">JavaScript</li>
+              <li className="list-group-item">CSS</li>
+              <li className="list-group-item">React</li>
+          </ul>
+          </div>    
         </div>
         </div>
 
-        <div class="col-sm-3">
-        <div id="backend" class="card">
-        <img src="./img/backend.webp" class="card-img-top" alt="..." height="200" width="50" />
-          <div class="card-body">
-              <h5 class="card-title">Backend Development Stack</h5>
+        <div className="col-sm-3">
+        <div id="backend" className="card">
+        <img src="./img/backend.webp" className="card-img-top" alt="..." height="200" width="50" />
+          <div className="card-body">
+              <h5 className="card-title">Backend Development Stack</h5>
           </div>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item">Express.js</li>
-              <li class="list-group-item">Node.js</li>
+          <div>
+          <ul className="list-group list-group-flush">
+              <li className="list-group-item">Express.js</li>
+              <li className="list-group-item">Node.js</li>
           </ul>
+          </div>
         </div>
         </div>
 
-        <div class="col-sm-3">
-        <div id="database" class="card">
-        <img src="./img/database.png" class="card-img-top" alt="..." height="200" width="50" />
-          <div class="card-body">
-              <h5 class="card-title">Database & Storage</h5>
+        <div className="col-sm-3">
+        <div id="database" className="card">
+        <img src="./img/database.png" className="card-img-top" alt="..." height="200" width="50" />
+          <div className="card-body">
+              <h5 className="card-title">Database & Storage</h5>
           </div>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item">SQL</li>
-              <li class="list-group-item">MongoDB</li>
-              <li class="list-group-item">ORM & ODM (Sequelize, Mongoose)</li>
+          <div>
+          <ul className="list-group list-group-flush">
+              <li className="list-group-item">SQL</li>
+              <li className="list-group-item">MongoDB</li>
+              <li className="list-group-item">ORM & ODM (Sequelize, Mongoose)</li>
           </ul>
+          </div>
         </div>
         </div>
 
-        <div class="col-sm-3">
-        <div id="control" class="card">
-        <img src="./img/control.png" class="card-img-top" alt="..." height="200" width="50" />
-          <div class="card-body">
-              <h5 class="card-title">Control & Tests</h5>
+        <div className="col-sm-3">
+        <div id="control" className="card">
+        <img src="./img/control.png" className="card-img-top" alt="..." height="200" width="50" />
+          <div className="card-body">
+              <h5 className="card-title">Control & Tests</h5>
           </div>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item">Git</li>
-              <li class="list-group-item">Jest</li>
-              <li class="list-group-item">npm</li>
+          <div>
+          <ul className="list-group list-group-flush">
+              <li className="list-group-item">Git</li>
+              <li className="list-group-item">Jest</li>
+              <li className="list-group-item">npm</li>
           </ul>
+          </div>
         </div>
         </div>
       </div>

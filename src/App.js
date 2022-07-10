@@ -34,8 +34,8 @@ export default function PortfolioContainer() {
         <div className="sections">
           <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
           {renderPage()}
-          <Footer />
         </div>
+        <Footer />
     </div>
   );
 }

@@ -1,9 +1,10 @@
 .footer {
     width: 100%;
-    height: 40px;
     background-color: white;
     display: flex;
     justify-content: space-around;
+    border-color: black;
+    height: auto;
 }
 
 #git{
