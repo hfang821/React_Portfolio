@@ -1,17 +1,25 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.bad06ebb.css",
-    "main.js": "/react_portfolio/static/js/main.6f424408.js",
+    "main.js": "/react_portfolio/static/js/main.389612ac.js",
     "static/media/Coffee.jpg": "/react_portfolio/static/media/Coffee.0066b504449d3ca353dd.jpg",
     "static/media/social.png": "/react_portfolio/static/media/social.8b2ecf49379575c8ddac.png",
+    "static/media/profilepic.jpg": "/react_portfolio/static/media/profilepic.7ff32801c0987bb405a0.jpg",
+    "static/media/resume.png": "/react_portfolio/static/media/resume.35cd3909f25a1edc078c.png",
+    "static/media/powerlifting.jpg": "/react_portfolio/static/media/powerlifting.28b6e17a3c16d521bacc.jpg",
     "static/media/latest-pitch.png": "/react_portfolio/static/media/latest-pitch.f3cbe902711853feb9e7.png",
     "static/media/logo-picture.png": "/react_portfolio/static/media/logo-picture.55339433622f2811ab66.png",
+    "static/media/database.png": "/react_portfolio/static/media/database.de3985ca50da03656d2e.png",
+    "static/media/Linkedln.png": "/react_portfolio/static/media/Linkedln.cca6bb7fbef563ed9323.png",
+    "static/media/control.png": "/react_portfolio/static/media/control.77a972794e9d7f1e5b76.png",
+    "static/media/backend.webp": "/react_portfolio/static/media/backend.b81fa1ca4027147ef975.webp",
+    "static/media/frontend.webp": "/react_portfolio/static/media/frontend.0cd42927ccdb8e999739.webp",
     "index.html": "/react_portfolio/index.html",
     "main.bad06ebb.css.map": "/react_portfolio/static/css/main.bad06ebb.css.map",
-    "main.6f424408.js.map": "/react_portfolio/static/js/main.6f424408.js.map"
+    "main.389612ac.js.map": "/react_portfolio/static/js/main.389612ac.js.map"
   },
   "entrypoints": [
     "static/css/main.bad06ebb.css",
-    "static/js/main.6f424408.js"
+    "static/js/main.389612ac.js"
   ]
 }
