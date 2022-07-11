@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e6d55333.css",
-    "main.js": "/react-portfolio/static/js/main.6f424408.js",
-    "static/media/Coffee.jpg": "/react-portfolio/static/media/Coffee.0066b504449d3ca353dd.jpg",
-    "static/media/social.png": "/react-portfolio/static/media/social.8b2ecf49379575c8ddac.png",
-    "static/media/latest-pitch.png": "/react-portfolio/static/media/latest-pitch.f3cbe902711853feb9e7.png",
-    "static/media/logo-picture.png": "/react-portfolio/static/media/logo-picture.55339433622f2811ab66.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.e6d55333.css.map": "/react-portfolio/static/css/main.e6d55333.css.map",
-    "main.6f424408.js.map": "/react-portfolio/static/js/main.6f424408.js.map"
+    "main.css": "/hfang821/react_portfolio.git/static/css/main.1aaa8aef.css",
+    "main.js": "/hfang821/react_portfolio.git/static/js/main.6f424408.js",
+    "static/media/Coffee.jpg": "/hfang821/react_portfolio.git/static/media/Coffee.0066b504449d3ca353dd.jpg",
+    "static/media/social.png": "/hfang821/react_portfolio.git/static/media/social.8b2ecf49379575c8ddac.png",
+    "static/media/latest-pitch.png": "/hfang821/react_portfolio.git/static/media/latest-pitch.f3cbe902711853feb9e7.png",
+    "static/media/logo-picture.png": "/hfang821/react_portfolio.git/static/media/logo-picture.55339433622f2811ab66.png",
+    "index.html": "/hfang821/react_portfolio.git/index.html",
+    "main.1aaa8aef.css.map": "/hfang821/react_portfolio.git/static/css/main.1aaa8aef.css.map",
+    "main.6f424408.js.map": "/hfang821/react_portfolio.git/static/js/main.6f424408.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6d55333.css",
+    "static/css/main.1aaa8aef.css",
     "static/js/main.6f424408.js"
   ]
 }
