@@ -1,3 +1,6 @@
+# This Portfolio is deployed at:
+https://hfang821.github.io/react_portfolio/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
