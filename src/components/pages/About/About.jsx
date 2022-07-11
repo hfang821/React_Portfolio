@@ -1,13 +1,19 @@
 import React from 'react';
 import "./About.css"
+import profilePic from "../../img/profilepic.jpg";
+import powerPic from "../../img/powerlifting.jpg";
+import frontendPic from "../../img/frontend.webp";
+import backendPic from "../../img/backend.webp";
+import databasePic from "../../img/database.png";
+import gitPic from "../../img/control.png";
 
 export default function About(currentPage, handlePageChange) {
   return (
     <div className="about" id="coffee">
       <h1>About Page</h1>
       <div id="pictures">
-      <img src="./img/profilepic.jpg" alt="profile" width="" height="200" />
-      <img src="./img/powerlifting.jpg" alt="profile" width="" height="200" />
+      <img src={profilePic} alt="profile" width="" height="200" />
+      <img src={powerPic} alt="profile" width="" height="200" />
       </div>
       <div id="aboutText">
       <h1>My name is Kevin Fang </h1> 
@@ -20,7 +26,7 @@ export default function About(currentPage, handlePageChange) {
       <div className="row">
       <div className="col-sm-3">
         <div id="frontend" className="card">
-          <img src="./img/frontend.webp" className="card-img-top" alt="..." height="200" width="50" />
+          <img src={frontendPic} className="card-img-top" alt="..." height="200" width="50" />
           <div className="card-body">
               <h5 className="card-title">Frontend Development Stack</h5>
           </div>
@@ -37,7 +43,7 @@ export default function About(currentPage, handlePageChange) {
 
         <div className="col-sm-3">
         <div id="backend" className="card">
-        <img src="./img/backend.webp" className="card-img-top" alt="..." height="200" width="50" />
+        <img src={backendPic} className="card-img-top" alt="..." height="200" width="50" />
           <div className="card-body">
               <h5 className="card-title">Backend Development Stack</h5>
           </div>
@@ -52,7 +58,7 @@ export default function About(currentPage, handlePageChange) {
 
         <div className="col-sm-3">
         <div id="database" className="card">
-        <img src="./img/database.png" className="card-img-top" alt="..." height="200" width="50" />
+        <img src={databasePic} className="card-img-top" alt="..." height="200" width="50" />
           <div className="card-body">
               <h5 className="card-title">Database & Storage</h5>
           </div>
@@ -68,7 +74,7 @@ export default function About(currentPage, handlePageChange) {
 
         <div className="col-sm-3">
         <div id="control" className="card">
-        <img src="./img/control.png" className="card-img-top" alt="..." height="200" width="50" />
+        <img src={gitPic} className="card-img-top" alt="..." height="200" width="50" />
           <div className="card-body">
               <h5 className="card-title">Control & Tests</h5>
           </div>
